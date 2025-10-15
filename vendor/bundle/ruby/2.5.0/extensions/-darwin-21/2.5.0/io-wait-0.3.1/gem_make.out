@@ -1,0 +1,11 @@
+current directory: /Users/dai_tachimoto/workspace/a-map/a-map/vendor/bundle/ruby/2.5.0/gems/io-wait-0.3.1/ext/io/wait
+/Users/dai_tachimoto/.rbenv/versions/2.5.1/bin/ruby -I /Users/dai_tachimoto/.rbenv/versions/2.5.1/lib/ruby/site_ruby/2.5.0 -r ./siteconf20251015-93158-1ilk7ma.rb extconf.rb
+
+current directory: /Users/dai_tachimoto/workspace/a-map/a-map/vendor/bundle/ruby/2.5.0/gems/io-wait-0.3.1/ext/io/wait
+make "DESTDIR=" clean
+
+current directory: /Users/dai_tachimoto/workspace/a-map/a-map/vendor/bundle/ruby/2.5.0/gems/io-wait-0.3.1/ext/io/wait
+make "DESTDIR="
+
+current directory: /Users/dai_tachimoto/workspace/a-map/a-map/vendor/bundle/ruby/2.5.0/gems/io-wait-0.3.1/ext/io/wait
+make "DESTDIR=" install

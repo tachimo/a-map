@@ -1,0 +1,185 @@
+current directory: /Users/dai_tachimoto/workspace/a-map/a-map/vendor/bundle/ruby/2.5.0/gems/puma-3.12.6/ext/puma_http11
+/Users/dai_tachimoto/.rbenv/versions/2.5.1/bin/ruby -I /Users/dai_tachimoto/.rbenv/versions/2.5.1/lib/ruby/site_ruby/2.5.0 -r ./siteconf20251015-93158-rt0lef.rb extconf.rb
+checking for BIO_read() in -lcrypto... yes
+checking for SSL_CTX_new() in -lssl... yes
+checking for openssl/bio.h... yes
+creating Makefile
+
+current directory: /Users/dai_tachimoto/workspace/a-map/a-map/vendor/bundle/ruby/2.5.0/gems/puma-3.12.6/ext/puma_http11
+make "DESTDIR=" clean
+
+current directory: /Users/dai_tachimoto/workspace/a-map/a-map/vendor/bundle/ruby/2.5.0/gems/puma-3.12.6/ext/puma_http11
+make "DESTDIR="
+compiling http11_parser.c
+compiling io_buffer.c
+compiling mini_ssl.c
+mini_ssl.c:148:16: warning: '(' and '{' tokens introducing statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  148 |   ID sym_key = rb_intern("key");
+      |                ^~~~~~~~~~~~~~~~
+/Users/dai_tachimoto/.rbenv/versions/2.5.1/include/ruby-2.5.0/ruby/ruby.h:1755:23: note: expanded from macro 'rb_intern'
+ 1755 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                       ^
+mini_ssl.c:148:16: note: '{' token is here
+  148 |   ID sym_key = rb_intern("key");
+      |                ^~~~~~~~~~~~~~~~
+/Users/dai_tachimoto/.rbenv/versions/2.5.1/include/ruby-2.5.0/ruby/ruby.h:1755:24: note: expanded from macro 'rb_intern'
+ 1755 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/dai_tachimoto/.rbenv/versions/2.5.1/include/ruby-2.5.0/ruby/ruby.h:1740:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+ 1740 |     {                                                   \
+      |     ^
+mini_ssl.c:148:16: warning: '}' and ')' tokens terminating statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  148 |   ID sym_key = rb_intern("key");
+      |                ^~~~~~~~~~~~~~~~
+/Users/dai_tachimoto/.rbenv/versions/2.5.1/include/ruby-2.5.0/ruby/ruby.h:1755:24: note: expanded from macro 'rb_intern'
+ 1755 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/dai_tachimoto/.rbenv/versions/2.5.1/include/ruby-2.5.0/ruby/ruby.h:1745:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+ 1745 |     }
+      |     ^
+mini_ssl.c:148:16: note: ')' token is here
+  148 |   ID sym_key = rb_intern("key");
+      |                ^~~~~~~~~~~~~~~~
+/Users/dai_tachimoto/.rbenv/versions/2.5.1/include/ruby-2.5.0/ruby/ruby.h:1755:56: note: expanded from macro 'rb_intern'
+ 1755 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                                                        ^
+mini_ssl.c:153:17: warning: '(' and '{' tokens introducing statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  153 |   ID sym_cert = rb_intern("cert");
+      |                 ^~~~~~~~~~~~~~~~~
+/Users/dai_tachimoto/.rbenv/versions/2.5.1/include/ruby-2.5.0/ruby/ruby.h:1755:23: note: expanded from macro 'rb_intern'
+ 1755 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                       ^
+mini_ssl.c:153:17: note: '{' token is here
+  153 |   ID sym_cert = rb_intern("cert");
+      |                 ^~~~~~~~~~~~~~~~~
+/Users/dai_tachimoto/.rbenv/versions/2.5.1/include/ruby-2.5.0/ruby/ruby.h:1755:24: note: expanded from macro 'rb_intern'
+ 1755 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/dai_tachimoto/.rbenv/versions/2.5.1/include/ruby-2.5.0/ruby/ruby.h:1740:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+ 1740 |     {                                                   \
+      |     ^
+mini_ssl.c:153:17: warning: '}' and ')' tokens terminating statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  153 |   ID sym_cert = rb_intern("cert");
+      |                 ^~~~~~~~~~~~~~~~~
+/Users/dai_tachimoto/.rbenv/versions/2.5.1/include/ruby-2.5.0/ruby/ruby.h:1755:24: note: expanded from macro 'rb_intern'
+ 1755 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/dai_tachimoto/.rbenv/versions/2.5.1/include/ruby-2.5.0/ruby/ruby.h:1745:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+ 1745 |     }
+      |     ^
+mini_ssl.c:153:17: note: ')' token is here
+  153 |   ID sym_cert = rb_intern("cert");
+      |                 ^~~~~~~~~~~~~~~~~
+/Users/dai_tachimoto/.rbenv/versions/2.5.1/include/ruby-2.5.0/ruby/ruby.h:1755:56: note: expanded from macro 'rb_intern'
+ 1755 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                                                        ^
+mini_ssl.c:158:15: warning: '(' and '{' tokens introducing statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  158 |   ID sym_ca = rb_intern("ca");
+      |               ^~~~~~~~~~~~~~~
+/Users/dai_tachimoto/.rbenv/versions/2.5.1/include/ruby-2.5.0/ruby/ruby.h:1755:23: note: expanded from macro 'rb_intern'
+ 1755 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                       ^
+mini_ssl.c:158:15: note: '{' token is here
+  158 |   ID sym_ca = rb_intern("ca");
+      |               ^~~~~~~~~~~~~~~
+/Users/dai_tachimoto/.rbenv/versions/2.5.1/include/ruby-2.5.0/ruby/ruby.h:1755:24: note: expanded from macro 'rb_intern'
+ 1755 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/dai_tachimoto/.rbenv/versions/2.5.1/include/ruby-2.5.0/ruby/ruby.h:1740:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+ 1740 |     {                                                   \
+      |     ^
+mini_ssl.c:158:15: warning: '}' and ')' tokens terminating statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  158 |   ID sym_ca = rb_intern("ca");
+      |               ^~~~~~~~~~~~~~~
+/Users/dai_tachimoto/.rbenv/versions/2.5.1/include/ruby-2.5.0/ruby/ruby.h:1755:24: note: expanded from macro 'rb_intern'
+ 1755 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/dai_tachimoto/.rbenv/versions/2.5.1/include/ruby-2.5.0/ruby/ruby.h:1745:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+ 1745 |     }
+      |     ^
+mini_ssl.c:158:15: note: ')' token is here
+  158 |   ID sym_ca = rb_intern("ca");
+      |               ^~~~~~~~~~~~~~~
+/Users/dai_tachimoto/.rbenv/versions/2.5.1/include/ruby-2.5.0/ruby/ruby.h:1755:56: note: expanded from macro 'rb_intern'
+ 1755 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                                                        ^
+mini_ssl.c:161:24: warning: '(' and '{' tokens introducing statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  161 |   ID sym_verify_mode = rb_intern("verify_mode");
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~
+/Users/dai_tachimoto/.rbenv/versions/2.5.1/include/ruby-2.5.0/ruby/ruby.h:1755:23: note: expanded from macro 'rb_intern'
+ 1755 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                       ^
+mini_ssl.c:161:24: note: '{' token is here
+  161 |   ID sym_verify_mode = rb_intern("verify_mode");
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~
+/Users/dai_tachimoto/.rbenv/versions/2.5.1/include/ruby-2.5.0/ruby/ruby.h:1755:24: note: expanded from macro 'rb_intern'
+ 1755 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/dai_tachimoto/.rbenv/versions/2.5.1/include/ruby-2.5.0/ruby/ruby.h:1740:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+ 1740 |     {                                                   \
+      |     ^
+mini_ssl.c:161:24: warning: '}' and ')' tokens terminating statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  161 |   ID sym_verify_mode = rb_intern("verify_mode");
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~
+/Users/dai_tachimoto/.rbenv/versions/2.5.1/include/ruby-2.5.0/ruby/ruby.h:1755:24: note: expanded from macro 'rb_intern'
+ 1755 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/dai_tachimoto/.rbenv/versions/2.5.1/include/ruby-2.5.0/ruby/ruby.h:1745:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+ 1745 |     }
+      |     ^
+mini_ssl.c:161:24: note: ')' token is here
+  161 |   ID sym_verify_mode = rb_intern("verify_mode");
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~
+/Users/dai_tachimoto/.rbenv/versions/2.5.1/include/ruby-2.5.0/ruby/ruby.h:1755:56: note: expanded from macro 'rb_intern'
+ 1755 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                                                        ^
+mini_ssl.c:164:30: warning: '(' and '{' tokens introducing statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  164 |   ID sym_ssl_cipher_filter = rb_intern("ssl_cipher_filter");
+      |                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/dai_tachimoto/.rbenv/versions/2.5.1/include/ruby-2.5.0/ruby/ruby.h:1755:23: note: expanded from macro 'rb_intern'
+ 1755 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                       ^
+mini_ssl.c:164:30: note: '{' token is here
+  164 |   ID sym_ssl_cipher_filter = rb_intern("ssl_cipher_filter");
+      |                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/dai_tachimoto/.rbenv/versions/2.5.1/include/ruby-2.5.0/ruby/ruby.h:1755:24: note: expanded from macro 'rb_intern'
+ 1755 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/dai_tachimoto/.rbenv/versions/2.5.1/include/ruby-2.5.0/ruby/ruby.h:1740:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+ 1740 |     {                                                   \
+      |     ^
+mini_ssl.c:164:30: warning: '}' and ')' tokens terminating statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  164 |   ID sym_ssl_cipher_filter = rb_intern("ssl_cipher_filter");
+      |                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/dai_tachimoto/.rbenv/versions/2.5.1/include/ruby-2.5.0/ruby/ruby.h:1755:24: note: expanded from macro 'rb_intern'
+ 1755 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/dai_tachimoto/.rbenv/versions/2.5.1/include/ruby-2.5.0/ruby/ruby.h:1745:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+ 1745 |     }
+      |     ^
+mini_ssl.c:164:30: note: ')' token is here
+  164 |   ID sym_ssl_cipher_filter = rb_intern("ssl_cipher_filter");
+      |                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/dai_tachimoto/.rbenv/versions/2.5.1/include/ruby-2.5.0/ruby/ruby.h:1755:56: note: expanded from macro 'rb_intern'
+ 1755 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                                                        ^
+mini_ssl.c:220:27: warning: 'DTLSv1_method' is deprecated [-Wdeprecated-declarations]
+  220 |   conn->ctx = SSL_CTX_new(DTLSv1_method());
+      |                           ^
+/Users/dai_tachimoto/.rbenv/versions/2.5.1/openssl/include/openssl/ssl.h:1895:1: note: 'DTLSv1_method' has been explicitly marked deprecated here
+ 1895 | DEPRECATEDIN_1_1_0(__owur const SSL_METHOD *DTLSv1_method(void)) /* DTLSv1.0 */
+      | ^
+/Users/dai_tachimoto/.rbenv/versions/2.5.1/openssl/include/openssl/opensslconf.h:163:34: note: expanded from macro 'DEPRECATEDIN_1_1_0'
+  163 | # define DEPRECATEDIN_1_1_0(f)   DECLARE_DEPRECATED(f)
+      |                                  ^
+/Users/dai_tachimoto/.rbenv/versions/2.5.1/openssl/include/openssl/opensslconf.h:121:55: note: expanded from macro 'DECLARE_DEPRECATED'
+  121 | #   define DECLARE_DEPRECATED(f)    f __attribute__ ((deprecated));
+      |                                                       ^
+11 warnings generated.
+compiling puma_http11.c
+linking shared-object puma/puma_http11.bundle
+ld: warning: -multiply_defined is obsolete
+
+current directory: /Users/dai_tachimoto/workspace/a-map/a-map/vendor/bundle/ruby/2.5.0/gems/puma-3.12.6/ext/puma_http11
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 puma_http11.bundle ./.gem.20251015-93158-8p286t/puma

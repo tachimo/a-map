@@ -1,0 +1,20 @@
+current directory: /Users/dai_tachimoto/workspace/a-map/a-map/vendor/bundle/ruby/3.1.0/gems/io-wait-0.3.1/ext/io/wait
+/Users/dai_tachimoto/.rbenv/versions/3.1.4/bin/ruby -I /Users/dai_tachimoto/.rbenv/versions/3.1.4/lib/ruby/3.1.0 extconf.rb
+checking for rb_io_wait()... yes
+checking for rb_io_descriptor()... yes
+checking for sys/ioctl.h... yes
+checking for FIONREAD in sys/ioctl.h,sys/ioctl.h... yes
+creating Makefile
+
+current directory: /Users/dai_tachimoto/workspace/a-map/a-map/vendor/bundle/ruby/3.1.0/gems/io-wait-0.3.1/ext/io/wait
+make DESTDIR\= sitearchdir\=./.gem.20251015-61958-z0g7p0 sitelibdir\=./.gem.20251015-61958-z0g7p0 clean
+
+current directory: /Users/dai_tachimoto/workspace/a-map/a-map/vendor/bundle/ruby/3.1.0/gems/io-wait-0.3.1/ext/io/wait
+make DESTDIR\= sitearchdir\=./.gem.20251015-61958-z0g7p0 sitelibdir\=./.gem.20251015-61958-z0g7p0
+compiling wait.c
+linking shared-object io/wait.bundle
+ld: warning: ignoring duplicate libraries: '-lruby.3.1'
+
+current directory: /Users/dai_tachimoto/workspace/a-map/a-map/vendor/bundle/ruby/3.1.0/gems/io-wait-0.3.1/ext/io/wait
+make DESTDIR\= sitearchdir\=./.gem.20251015-61958-z0g7p0 sitelibdir\=./.gem.20251015-61958-z0g7p0 install
+/usr/bin/install -c -m 0755 wait.bundle ./.gem.20251015-61958-z0g7p0/io

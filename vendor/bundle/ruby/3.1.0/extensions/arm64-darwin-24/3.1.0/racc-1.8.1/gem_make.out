@@ -1,0 +1,16 @@
+current directory: /Users/dai_tachimoto/workspace/a-map/a-map/vendor/bundle/ruby/3.1.0/gems/racc-1.8.1/ext/racc/cparse
+/Users/dai_tachimoto/.rbenv/versions/3.1.4/bin/ruby -I /Users/dai_tachimoto/.rbenv/versions/3.1.4/lib/ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: /Users/dai_tachimoto/workspace/a-map/a-map/vendor/bundle/ruby/3.1.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20251015-61958-mxgr9a sitelibdir\=./.gem.20251015-61958-mxgr9a clean
+
+current directory: /Users/dai_tachimoto/workspace/a-map/a-map/vendor/bundle/ruby/3.1.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20251015-61958-mxgr9a sitelibdir\=./.gem.20251015-61958-mxgr9a
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+ld: warning: ignoring duplicate libraries: '-lruby.3.1'
+
+current directory: /Users/dai_tachimoto/workspace/a-map/a-map/vendor/bundle/ruby/3.1.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20251015-61958-mxgr9a sitelibdir\=./.gem.20251015-61958-mxgr9a install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20251015-61958-mxgr9a/racc

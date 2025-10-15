@@ -1,0 +1,18 @@
+current directory: /Users/dai_tachimoto/workspace/a-map/a-map/vendor/bundle/ruby/3.1.0/gems/strscan-3.1.5/ext/strscan
+/Users/dai_tachimoto/.rbenv/versions/3.1.4/bin/ruby -I /Users/dai_tachimoto/.rbenv/versions/3.1.4/lib/ruby/3.1.0 extconf.rb
+checking for onig_region_memsize() in ruby.h... yes
+checking for rb_reg_onig_match() in ruby.h... no
+creating Makefile
+
+current directory: /Users/dai_tachimoto/workspace/a-map/a-map/vendor/bundle/ruby/3.1.0/gems/strscan-3.1.5/ext/strscan
+make DESTDIR\= sitearchdir\=./.gem.20251015-61958-4ictpv sitelibdir\=./.gem.20251015-61958-4ictpv clean
+
+current directory: /Users/dai_tachimoto/workspace/a-map/a-map/vendor/bundle/ruby/3.1.0/gems/strscan-3.1.5/ext/strscan
+make DESTDIR\= sitearchdir\=./.gem.20251015-61958-4ictpv sitelibdir\=./.gem.20251015-61958-4ictpv
+compiling strscan.c
+linking shared-object strscan.bundle
+ld: warning: ignoring duplicate libraries: '-lruby.3.1'
+
+current directory: /Users/dai_tachimoto/workspace/a-map/a-map/vendor/bundle/ruby/3.1.0/gems/strscan-3.1.5/ext/strscan
+make DESTDIR\= sitearchdir\=./.gem.20251015-61958-4ictpv sitelibdir\=./.gem.20251015-61958-4ictpv install
+/usr/bin/install -c -m 0755 strscan.bundle ./.gem.20251015-61958-4ictpv

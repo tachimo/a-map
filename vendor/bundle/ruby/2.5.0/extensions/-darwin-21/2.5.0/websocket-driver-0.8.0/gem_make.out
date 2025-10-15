@@ -1,0 +1,16 @@
+current directory: /Users/dai_tachimoto/workspace/a-map/a-map/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+/Users/dai_tachimoto/.rbenv/versions/2.5.1/bin/ruby -I /Users/dai_tachimoto/.rbenv/versions/2.5.1/lib/ruby/site_ruby/2.5.0 -r ./siteconf20251015-93158-i4uwxq.rb extconf.rb
+creating Makefile
+
+current directory: /Users/dai_tachimoto/workspace/a-map/a-map/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /Users/dai_tachimoto/workspace/a-map/a-map/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+ld: warning: -multiply_defined is obsolete
+
+current directory: /Users/dai_tachimoto/workspace/a-map/a-map/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20251015-93158-1y4ef3o

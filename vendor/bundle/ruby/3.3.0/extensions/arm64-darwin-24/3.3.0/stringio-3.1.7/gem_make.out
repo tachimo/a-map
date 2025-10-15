@@ -1,0 +1,19 @@
+current directory: /Users/dai_tachimoto/workspace/a-map/a-map/vendor/bundle/ruby/3.3.0/gems/stringio-3.1.7/ext/stringio
+/Users/dai_tachimoto/.rbenv/versions/3.3.4/bin/ruby extconf.rb
+checking for rb_io_mode_t in ruby/io.h... no
+creating Makefile
+
+current directory: /Users/dai_tachimoto/workspace/a-map/a-map/vendor/bundle/ruby/3.3.0/gems/stringio-3.1.7/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20251015-40804-ysq1vp sitelibdir\=./.gem.20251015-40804-ysq1vp clean
+
+current directory: /Users/dai_tachimoto/workspace/a-map/a-map/vendor/bundle/ruby/3.3.0/gems/stringio-3.1.7/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20251015-40804-ysq1vp sitelibdir\=./.gem.20251015-40804-ysq1vp
+compiling stringio.c
+linking shared-object stringio.bundle
+
+current directory: /Users/dai_tachimoto/workspace/a-map/a-map/vendor/bundle/ruby/3.3.0/gems/stringio-3.1.7/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20251015-40804-ysq1vp sitelibdir\=./.gem.20251015-40804-ysq1vp install
+/usr/bin/install -c -m 0755 stringio.bundle ./.gem.20251015-40804-ysq1vp
+
+current directory: /Users/dai_tachimoto/workspace/a-map/a-map/vendor/bundle/ruby/3.3.0/gems/stringio-3.1.7/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20251015-40804-ysq1vp sitelibdir\=./.gem.20251015-40804-ysq1vp clean

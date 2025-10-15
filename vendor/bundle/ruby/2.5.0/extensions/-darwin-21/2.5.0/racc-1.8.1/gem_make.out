@@ -1,0 +1,16 @@
+current directory: /Users/dai_tachimoto/workspace/a-map/a-map/vendor/bundle/ruby/2.5.0/gems/racc-1.8.1/ext/racc/cparse
+/Users/dai_tachimoto/.rbenv/versions/2.5.1/bin/ruby -I /Users/dai_tachimoto/.rbenv/versions/2.5.1/lib/ruby/site_ruby/2.5.0 -r ./siteconf20251015-93158-tb3qbq.rb extconf.rb
+creating Makefile
+
+current directory: /Users/dai_tachimoto/workspace/a-map/a-map/vendor/bundle/ruby/2.5.0/gems/racc-1.8.1/ext/racc/cparse
+make "DESTDIR=" clean
+
+current directory: /Users/dai_tachimoto/workspace/a-map/a-map/vendor/bundle/ruby/2.5.0/gems/racc-1.8.1/ext/racc/cparse
+make "DESTDIR="
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+ld: warning: -multiply_defined is obsolete
+
+current directory: /Users/dai_tachimoto/workspace/a-map/a-map/vendor/bundle/ruby/2.5.0/gems/racc-1.8.1/ext/racc/cparse
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20251015-93158-1gi5b7k/racc

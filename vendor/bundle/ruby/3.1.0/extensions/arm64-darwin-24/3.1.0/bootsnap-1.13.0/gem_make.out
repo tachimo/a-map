@@ -1,0 +1,16 @@
+current directory: /Users/dai_tachimoto/workspace/a-map/a-map/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.13.0/ext/bootsnap
+/Users/dai_tachimoto/.rbenv/versions/3.1.4/bin/ruby -I /Users/dai_tachimoto/.rbenv/versions/3.1.4/lib/ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: /Users/dai_tachimoto/workspace/a-map/a-map/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.13.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20251015-61958-t9mtmu sitelibdir\=./.gem.20251015-61958-t9mtmu clean
+
+current directory: /Users/dai_tachimoto/workspace/a-map/a-map/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.13.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20251015-61958-t9mtmu sitelibdir\=./.gem.20251015-61958-t9mtmu
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+ld: warning: ignoring duplicate libraries: '-lruby.3.1'
+
+current directory: /Users/dai_tachimoto/workspace/a-map/a-map/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.13.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20251015-61958-t9mtmu sitelibdir\=./.gem.20251015-61958-t9mtmu install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20251015-61958-t9mtmu/bootsnap

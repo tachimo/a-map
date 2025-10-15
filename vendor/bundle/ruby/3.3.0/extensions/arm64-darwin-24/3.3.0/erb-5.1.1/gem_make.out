@@ -1,0 +1,19 @@
+current directory: /Users/dai_tachimoto/workspace/a-map/a-map/vendor/bundle/ruby/3.3.0/gems/erb-5.1.1/ext/erb/escape
+/Users/dai_tachimoto/.rbenv/versions/3.3.4/bin/ruby extconf.rb
+checking for rb_ext_ractor_safe() in ruby.h... yes
+creating Makefile
+
+current directory: /Users/dai_tachimoto/workspace/a-map/a-map/vendor/bundle/ruby/3.3.0/gems/erb-5.1.1/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20251015-40804-7e1fex sitelibdir\=./.gem.20251015-40804-7e1fex clean
+
+current directory: /Users/dai_tachimoto/workspace/a-map/a-map/vendor/bundle/ruby/3.3.0/gems/erb-5.1.1/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20251015-40804-7e1fex sitelibdir\=./.gem.20251015-40804-7e1fex
+compiling escape.c
+linking shared-object erb/escape.bundle
+
+current directory: /Users/dai_tachimoto/workspace/a-map/a-map/vendor/bundle/ruby/3.3.0/gems/erb-5.1.1/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20251015-40804-7e1fex sitelibdir\=./.gem.20251015-40804-7e1fex install
+/usr/bin/install -c -m 0755 escape.bundle ./.gem.20251015-40804-7e1fex/erb
+
+current directory: /Users/dai_tachimoto/workspace/a-map/a-map/vendor/bundle/ruby/3.3.0/gems/erb-5.1.1/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20251015-40804-7e1fex sitelibdir\=./.gem.20251015-40804-7e1fex clean

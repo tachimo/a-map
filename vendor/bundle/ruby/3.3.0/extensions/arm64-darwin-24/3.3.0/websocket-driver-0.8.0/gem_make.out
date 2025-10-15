@@ -1,0 +1,18 @@
+current directory: /Users/dai_tachimoto/workspace/a-map/a-map/vendor/bundle/ruby/3.3.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+/Users/dai_tachimoto/.rbenv/versions/3.3.4/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/dai_tachimoto/workspace/a-map/a-map/vendor/bundle/ruby/3.3.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20251015-29481-kb5hw0 sitelibdir\=./.gem.20251015-29481-kb5hw0 clean
+
+current directory: /Users/dai_tachimoto/workspace/a-map/a-map/vendor/bundle/ruby/3.3.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20251015-29481-kb5hw0 sitelibdir\=./.gem.20251015-29481-kb5hw0
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+
+current directory: /Users/dai_tachimoto/workspace/a-map/a-map/vendor/bundle/ruby/3.3.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20251015-29481-kb5hw0 sitelibdir\=./.gem.20251015-29481-kb5hw0 install
+/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20251015-29481-kb5hw0
+
+current directory: /Users/dai_tachimoto/workspace/a-map/a-map/vendor/bundle/ruby/3.3.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20251015-29481-kb5hw0 sitelibdir\=./.gem.20251015-29481-kb5hw0 clean
