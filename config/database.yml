@@ -83,3 +83,4 @@ production:
   database: a-map_production
   username: a-map
   password: <%= ENV['A-MAP_DATABASE_PASSWORD'] %>
+  url: <%= ENV["DATABASE_URL"] %>

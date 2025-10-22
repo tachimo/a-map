@@ -62,3 +62,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'bootsnap', require: false
 
 gem 'dotenv-rails', groups: [:development, :test]
+
+gem "dockerfile-rails", ">= 1.7", group: :development
