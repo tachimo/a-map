@@ -19,6 +19,9 @@ console_command = '/rails/bin/rails console'
   auto_start_machines = true
   min_machines_running = 0
   processes = ['app']
+  type = "connections"
+  hard_limit = 25
+  soft_limit = 20
 
 [[vm]]
   memory = '1gb'

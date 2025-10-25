@@ -64,3 +64,7 @@ gem 'bootsnap', require: false
 gem 'dotenv-rails', groups: [:development, :test]
 
 gem "dockerfile-rails", ">= 1.7", group: :development
+
+gem 'terser'
+
+gem 'turbolinks', '~> 5'

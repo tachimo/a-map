@@ -1,4 +1,4 @@
-<h1>地図検索アプリ</h1>
+<h1>場所検索アプリ</h1>
 <p>以下から地名を入れて検索する</p>
 
 <p>Posts loaded: <%= @posts.count %></p>
@@ -14,8 +14,8 @@
 
 <style>
  #map {
-  height: 600px;
-  width: 600px;
+  height: 1000px;
+  width: 1400px;
 }
 </style>
 
@@ -29,12 +29,12 @@ function initMap(){
   geocoder = new google.maps.Geocoder()
 
   map = new google.maps.Map(document.getElementById('map'), {
-    center: {lat: 40.7828, lng:-73.9653},
+    center: {lat: 35.9356087, lng:139.5526597},
     zoom: 12,
   });
 
   marker = new google.maps.Marker({
-    position:  {lat: 40.7828, lng:-73.9653},
+    position:  {lat: 35.9356087, lng:139.5526597},
     map: map
   });
 }
