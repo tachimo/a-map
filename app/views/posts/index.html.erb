@@ -1,57 +1,8 @@
 <h1>場所検索アプリ</h1>
-<p>以下から地名を入れて検索する</p>
 
-<h2>a-map</h2>
+<input id="address" type="text">
+<button onclick="codeAddress()">検索</button>
 
-<input id="address" type="textbox" value="GeekSalon">
-<input type="button" value="Encode" onclick="codeAddress()">
-<!-- 下の1行を追加 -->
-<div id="display">何かが表示される、、、、！</div>
+<div id="display"></div>
 
-<div id='map'></div>
-
-<style>
- #map {
-  height: 1000px;
-  width: 1400px;
-}
-</style>
-
-<script>
-let map
-let geocoder
-// 下の1行を追加 
-const display = document.getElementById('display')
-
-function initMap(){
-  geocoder = new google.maps.Geocoder()
-
-  map = new google.maps.Map(document.getElementById('map'), {
-    center: {lat: 35.9356087, lng:139.5526597},
-    zoom: 12,
-  });
-
-  marker = new google.maps.Marker({
-    position:  {lat: 35.9356087, lng:139.5526597},
-    map: map
-  });
-}
-
-function codeAddress(){
-  let inputAddress = document.getElementById('address').value;
-
-  geocoder.geocode( { 'address': inputAddress}, function(results, status) {
-    if (status == 'OK') {
-      map.setCenter(results[0].geometry.location);
-      var marker = new google.maps.Marker({
-          map: map,
-          position: results[0].geometry.location
-      });
-      // 下の1行を追加 
-      display.textContent = "検索結果：" + results[ 0 ].geometry.location
-    } else {
-      alert('該当する結果がありませんでした：' + status);
-    }
-  });   
-}
-</script>
+<div id="map" style="height:500px;"></div>

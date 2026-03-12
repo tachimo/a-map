@@ -2,18 +2,14 @@ default: &default
   adapter: postgresql
   encoding: unicode
   pool: <%= ENV.fetch('RAILS_MAX_THREADS', 5) %>
+  url: <%= ENV["DATABASE_URL"] %>
 
 development:
   <<: *default
-  database: a-map_development
 
 test:
   <<: *default
-  database: a-map_test
 
 production:
   <<: *default
-  url: "<%= ENV['DATABASE_URL'] %>"
-  username: "a_map"
-  password: "<%= ENV['A_MAP_DATABASE_PASSWORD'] %>"
 

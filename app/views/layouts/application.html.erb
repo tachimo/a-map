@@ -2,12 +2,28 @@
 <html>
   <head>
     <title>AMap</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+
   </head>
 
   <body>
+
     <%= yield %>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=<%= ENV['GOOGLE_MAP_KEY'] %>&callback=initMap"></script>
+
+    <script src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+
+    <script src="/assets/map.js"></script>
+
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=<%= ENV['GOOGLE_MAP_KEY'] %>&callback=initMap">
+    </script>
+
   </body>
 </html>
+
