@@ -1,2 +1,2 @@
-pin "application"
-pin "./map", to: "map.js"
+pin "application", preload: true
+pin "map", to: "map.js"
